@@ -18,6 +18,7 @@ function ExpressPeerServer(
 	options?: Partial<IConfig>,
 ) {
 	const app = express();
+	app.use(cors());
 
 	const newOptions: IConfig = {
 		...defaultConfig,
