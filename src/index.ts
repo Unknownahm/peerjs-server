@@ -1,3 +1,4 @@
+import cors from "cors";
 import express, { type Express } from "express";
 import http from "node:http";
 import https from "node:https";
